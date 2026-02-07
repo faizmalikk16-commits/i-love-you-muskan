@@ -3,25 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muskan Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Muskan Romantic Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        nav {
+            background-color: #6200ea;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        h1 {
+            margin: 20px 0;
+            font-size: 3em;
+            animation: fadeIn 2s;
+        }
+        button {
+            background-color: #6200ea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #3700b3;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Muskan's Website</h1>
-    </header>
-    <main>
-        <section>
-            <h2>About Muskan</h2>
-            <p>Muskan is a wonderful person who brings joy and laughter to everyone she meets.</p>
-        </section>
-        <section>
-            <h2>Contact</h2>
-            <p>Email: muskan@example.com</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 Muskan's Website</p>
-    </footer>
+    <nav>
+        <h2>Welcome to Muskan's Romantic World</h2>
+    </nav>
+    <div class="container">
+        <h1>Celebrate Your Love</h1>
+        <p>Join us in this romantic journey filled with love and joy.</p>
+        <button onclick="alert('Love is in the air!')">Click for a Surprise!</button>
+    </div>
 </body>
 </html>
